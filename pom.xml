@@ -6,13 +6,13 @@
 	<groupId>org.statefulj.framework</groupId>
 	<artifactId>statefulj-framework-demo-ddd</artifactId>
 	<packaging>war</packaging>
-	<version>0.8.1</version>
+	<version>0.9</version>
 
 	<name>statefulj-framework-demo-ddd</name>
 	<url>http://www.statefulj.org</url>
 
 	<properties>
-		<statefulj.version>0.9-SNAPSHOT</statefulj.version>
+		<statefulj.version>${project.version}</statefulj.version>
 		<annotations-api.version>1.2</annotations-api.version>
 		<javaee-web-api.version>6.0</javaee-web-api.version>
 		<jersey.version>2.13</jersey.version>
