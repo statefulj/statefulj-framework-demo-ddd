@@ -1,0 +1,9 @@
+*.log
+.springBeans
+.classpath
+.project
+.settings
+*.versionsBackup
+target/
+bin/
+_site
