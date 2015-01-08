@@ -1,4 +1,4 @@
-statefulj-framework-demo-jpa
+statefulj-framework-demo-ddd
 ========================
 
-Demo of the StatefulJ Framework
+Demo of the StatefulJ Framework utilizing a Domain Driven Design approach
