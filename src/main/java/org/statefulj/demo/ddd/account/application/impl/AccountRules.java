@@ -31,8 +31,6 @@ import org.statefulj.demo.ddd.account.domain.LoanAccount;
 
 import static org.statefulj.demo.ddd.account.domain.Account.*;
 
-import static org.apache.camel.ExchangePattern.*;
-
 public class AccountRules {
 	static Random random = new Random(Calendar.getInstance().getTimeInMillis());
 	

@@ -17,8 +17,6 @@
  */
 package org.statefulj.demo.ddd.customer.application;
 
-import java.util.LinkedList;
-
 import javax.annotation.Resource;
 import javax.servlet.http.HttpSession;
 import javax.validation.Valid;
@@ -34,7 +32,6 @@ import org.statefulj.demo.ddd.customer.domain.Customer;
 import org.statefulj.demo.ddd.customer.domain.CustomerSessionService;
 import org.statefulj.demo.ddd.customer.domain.RegistrationForm;
 import org.statefulj.demo.ddd.exception.DuplicateUserException;
-import org.statefulj.demo.ddd.notification.domain.Notification;
 import org.statefulj.demo.ddd.notification.domain.NotificationService;
 import org.statefulj.framework.core.annotations.StatefulController;
 import org.statefulj.framework.core.annotations.Transition;
