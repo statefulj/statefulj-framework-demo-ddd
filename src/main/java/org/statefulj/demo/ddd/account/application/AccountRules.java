@@ -15,7 +15,7 @@
  * limitations under the License.
  * 
  */
-package org.statefulj.demo.ddd.account.application.impl;
+package org.statefulj.demo.ddd.account.application;
 
 import java.util.Calendar;
 import java.util.Random;
@@ -39,7 +39,7 @@ public class AccountRules {
 	public static final String ACCOUNT_APPROVED = "direct:account.approved";
 	public static final String ACCOUNT_REJECTED = "direct:account.rejected";
 	
-	// Private Queues
+	// Private Asynch Queues
 	//
 	private static final String REVIEW_LOAN = "vm:loan.application.review";
 

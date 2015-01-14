@@ -27,16 +27,12 @@ import org.statefulj.framework.core.annotations.StatefulController;
 import org.statefulj.framework.core.annotations.Transition;
 import org.statefulj.framework.core.annotations.Transitions;
 
-import static org.statefulj.demo.ddd.notification.application.NotificationController.*;
 import static org.statefulj.demo.ddd.notification.domain.Notification.*;
 
 @StatefulController(
 	clazz=Notification.class,
 	startState=NON_EXISTENT,
-	finderId=NotificationService.ID,
-	noops={
-		@Transition(from=SHOWING, event=DELETE_EVENT, to=DELETED)
-	}
+	finderId=NotificationService.ID
 )
 public class NotificationController {
 	
@@ -54,7 +50,12 @@ public class NotificationController {
 		@Transition(event=ACCOUNT_REJECTED_EVENT)
 	})
 	public void applicationReviewed(Notification notification, String event, AccountApplicationNotificationEvent response) {
-		notificationApplicationService.notify(notification, response.getCutstomerId(), response.getAccountId(), response.getType(), response.getReason());
+		notificationApplicationService.notify(
+				notification, 
+				response.getCutstomerId(), 
+				response.getAccountId(), 
+				response.getType(), 
+				response.getReason());
 	}
 	
 	@Transition(event=DELETE_EVENT)

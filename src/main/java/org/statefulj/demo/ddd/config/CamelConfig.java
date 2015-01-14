@@ -21,7 +21,7 @@ import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.spring.javaconfig.SingleRouteCamelConfiguration;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.statefulj.demo.ddd.account.application.impl.AccountRules;
+import org.statefulj.demo.ddd.account.application.AccountRules;
 
 /**
  * A simple example router from a file system to an ActiveMQ queue and then to a file system
