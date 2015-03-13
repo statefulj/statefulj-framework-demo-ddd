@@ -31,7 +31,7 @@ import org.statefulj.demo.ddd.account.domain.LoanAccount;
 
 import static org.statefulj.demo.ddd.account.domain.Account.*;
 
-public class AccountRules {
+public class AccountApplicationRules {
 	static Random random = new Random(Calendar.getInstance().getTimeInMillis());
 	
 	// Public Queues

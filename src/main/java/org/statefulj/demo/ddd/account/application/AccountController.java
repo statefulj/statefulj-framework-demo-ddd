@@ -30,7 +30,7 @@ import org.statefulj.demo.ddd.customer.domain.CustomerSessionService;
 import org.statefulj.framework.core.annotations.StatefulController;
 import org.statefulj.framework.core.annotations.Transition;
 
-import static org.statefulj.demo.ddd.account.application.AccountRules.*;
+import static org.statefulj.demo.ddd.account.application.AccountApplicationRules.*;
 import static org.statefulj.demo.ddd.account.domain.Account.*;
 
 @StatefulController(
