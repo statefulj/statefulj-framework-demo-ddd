@@ -6,7 +6,7 @@
 	<groupId>org.statefulj.framework</groupId>
 	<artifactId>statefulj-framework-demo-ddd</artifactId>
 	<packaging>war</packaging>
-	<version>0.9</version>
+	<version>1.0.5</version>
 
 	<name>statefulj-framework-demo-ddd</name>
 	<url>http://www.statefulj.org</url>
